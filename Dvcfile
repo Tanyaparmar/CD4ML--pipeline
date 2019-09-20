@@ -2,11 +2,11 @@ cmd: python code/eval.py
 deps:
 - md5: a5257a91e73920bdd4cafd0f88105b74
   path: data/processed_test_data.npy
-- md5: c48258ba79feb691b5600a2001411485
+- md5: fb15854eeb94be3284e24cdbb578e17a
   path: data/model.pkl
 - md5: dbda33303321d56e86ac2e95add58bc9
   path: code/eval.py
-md5: ce219d80b017bdf324ec0f977f67f4f2
+md5: 984e4a22e56ac65513773966aaa5e72f
 outs:
 - cache: false
   md5: 42e05a4d1c5f16b21c304c269178b5a8
@@ -14,4 +14,5 @@ outs:
     type: json
     xpath: accuracy
   path: metrics/eval.json
+  persist: false
 wdir: .

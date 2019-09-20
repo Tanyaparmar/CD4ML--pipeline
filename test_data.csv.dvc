@@ -7,4 +7,5 @@ outs:
   md5: c807df8d6d804ab2647fc15c3d40f543
   metric: false
   path: data/test_data.csv
+  persist: false
 wdir: .

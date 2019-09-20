@@ -4,16 +4,18 @@ deps:
   path: data/processed_train_data.npy
 - md5: 3c21145827bd2a2a7826f2a975b482a4
   path: code/train_model.py
-md5: 46053b6aaeecdb1f268728f458dd8c91
+md5: b38e3be62f9d6c3413e798e888f14bf5
 outs:
 - cache: true
-  md5: c48258ba79feb691b5600a2001411485
+  md5: fb15854eeb94be3284e24cdbb578e17a
   metric: false
   path: data/model.pkl
+  persist: false
 - cache: false
-  md5: 6bdd08689365b10def02e66626036053
+  md5: 0b9bbf11e214e5259bdb0bc9dd1d9439
   metric:
     type: json
     xpath: training_time
   path: metrics/train_metric.json
+  persist: false
 wdir: .
