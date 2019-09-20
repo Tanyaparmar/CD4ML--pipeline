@@ -1,4 +1,4 @@
 # mnist-dvc
 Data version control flow example
 
-small change
+small changes to trigger pipeline
