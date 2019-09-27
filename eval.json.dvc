@@ -1,0 +1,11 @@
+md5: 714809c7f21ed264ebc1c4988df8fa22
+wdir: .
+deps:
+- md5: dbda33303321d56e86ac2e95add58bc9
+  path: code/eval.py
+outs:
+- md5: dbda33303321d56e86ac2e95add58bc9
+  path: metrices/eval.json
+  cache: false
+  metric: true
+  persist: false
