@@ -12,15 +12,12 @@ outs:
   md5: e46984ac8b7097bfddfe5d9210f78ca4
   metric: false
   path: data/norm_params.json
-  persist: false
 - cache: true
   md5: 9ee0468925c998fda26d197a14d1caec
   metric: false
   path: data/processed_train_data.npy
-  persist: false
 - cache: true
   md5: a5257a91e73920bdd4cafd0f88105b74
   metric: false
   path: data/processed_test_data.npy
-  persist: false
 wdir: .

@@ -7,5 +7,4 @@ outs:
   md5: 5b49cf1b57fb9d6102b559d59d99df7c
   metric: false
   path: data/train_data.csv
-  persist: false
 wdir: .
