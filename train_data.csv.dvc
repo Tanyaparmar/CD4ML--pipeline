@@ -1,6 +1,6 @@
 deps:
 - etag: '"529e832d-687ff3a"'
-  path: https://pjreddie.com/media/files/mnist_train.csv
+  path: /Users/tanyaparmar/Desktop/data-repo/train_data.csv
 md5: 03ea98b3c4cc96702c8d36cb581a3a2a
 outs:
 - cache: true
